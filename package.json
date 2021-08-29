@@ -1,0 +1,30 @@
+{
+  "name": "asynchronism",
+  "version": "1.0.0",
+  "description": "a few examples of callbacks, promises, among other things to understand javascript asynchronism",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node callbacksExamples.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g8fromsancristoche/asynchronism-examples.git"
+  },
+  "keywords": [
+    "asynchronism",
+    "callbacks",
+    "promises",
+    "async",
+    "await",
+    "examples"
+  ],
+  "author": "G8",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g8fromsancristoche/asynchronism-examples/issues"
+  },
+  "homepage": "https://github.com/g8fromsancristoche/asynchronism-examples#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
