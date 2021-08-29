@@ -52,8 +52,7 @@ const API = 'https://rickandmortyapi.com/api/character/';
 
 const getData = (url_api) => {
     return new Promise((resolve, reject) => {
-        const xhttp = new XMLHttpRequest();      
-         
+        const xhttp = new XMLHttpRequest();               
         xhttp.open('GET',url_api, true); // last parameter is for asyncronous execution
         xhttp.onreadystatechange = (() => {            
             if (xhttp.readyState === 4){
